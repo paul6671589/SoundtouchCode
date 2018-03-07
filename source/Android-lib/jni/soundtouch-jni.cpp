@@ -33,7 +33,7 @@ static string _errMsg = "";
 
 
 #define DLL_PUBLIC __attribute__ ((visibility ("default")))
-#define BUFF_SIZE 4096
+#define BUFF_SIZE 8192
 
 
 using namespace soundtouch;
