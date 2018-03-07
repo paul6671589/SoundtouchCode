@@ -1,0 +1,50 @@
+﻿生成启动时间为 2018/3/6 下午5:22:04。
+     1>项目“\\Mac\Home\Documents\code\soundtouch\source\SoundTouch\SoundTouch.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:fast /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt AAFilter.cpp cpu_detect_x86.cpp FIFOSampleBuffer.cpp FIRFilter.cpp InterpolateCubic.cpp InterpolateLinear.cpp InterpolateShannon.cpp mmx_optimized.cpp RateTransposer.cpp SoundTouch.cpp sse_optimized.cpp TDStretch.cpp BPMDetect.cpp PeakFinder.cpp
+         AAFilter.cpp
+         cpu_detect_x86.cpp
+         FIFOSampleBuffer.cpp
+         FIRFilter.cpp
+         InterpolateCubic.cpp
+         InterpolateLinear.cpp
+         InterpolateShannon.cpp
+         mmx_optimized.cpp
+         RateTransposer.cpp
+         SoundTouch.cpp
+     1>\\mac\home\documents\code\soundtouch\source\soundtouch\soundtouch.cpp(584): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         sse_optimized.cpp
+         TDStretch.cpp
+         BPMDetect.cpp
+         PeakFinder.cpp
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(\\Mac\Home\Documents\code\soundtouch\source\SoundTouch\.\Debug\SoundTouch.lib) does not match the Library's OutputFile property value (\\Mac\Home\Documents\code\soundtouch\source\SoundTouch\Debug\SoundTouchD.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1356,5): warning MSB8012: TargetName(SoundTouch) does not match the Library's OutputFile property value (SoundTouchD). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"Debug\SoundTouchD.lib" /NOLOGO .\Debug/AAFilter.obj
+         .\Debug/cpu_detect_x86.obj
+         .\Debug/FIFOSampleBuffer.obj
+         .\Debug/FIRFilter.obj
+         .\Debug/InterpolateCubic.obj
+         .\Debug/InterpolateLinear.obj
+         .\Debug/InterpolateShannon.obj
+         .\Debug/mmx_optimized.obj
+         .\Debug/RateTransposer.obj
+         .\Debug/SoundTouch.obj
+         .\Debug/sse_optimized.obj
+         .\Debug/TDStretch.obj
+         .\Debug/BPMDetect.obj
+         .\Debug/PeakFinder.obj
+     1>mmx_optimized.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+         SoundTouch.vcxproj -> \\Mac\Home\Documents\code\soundtouch\source\SoundTouch\.\Debug\SoundTouch.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\SoundTouch.bsc" .\Debug\AAFilter.sbr .\Debug\cpu_detect_x86.sbr .\Debug\FIFOSampleBuffer.sbr .\Debug\FIRFilter.sbr .\Debug\InterpolateCubic.sbr .\Debug\InterpolateLinear.sbr .\Debug\InterpolateShannon.sbr .\Debug\mmx_optimized.sbr .\Debug\RateTransposer.sbr .\Debug\SoundTouch.sbr .\Debug\sse_optimized.sbr .\Debug\TDStretch.sbr .\Debug\BPMDetect.sbr .\Debug\PeakFinder.sbr
+       PostBuildEvent:
+         copy .\Debug\SoundTouchD.lib ..\..\lib\
+         :VCEnd
+         已复制         1 个文件。
+     1>已完成生成项目“\\Mac\Home\Documents\code\soundtouch\source\SoundTouch\SoundTouch.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:17.67
